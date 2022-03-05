@@ -12,9 +12,9 @@ import {
 const Navbar = () => (
   <div className="nav-container">
     <div className="logo-container">
-      <Avatar size={70}>🌐</Avatar>
+      <Avatar>🌐</Avatar>
       <Typography.Title level={2} className="logo">
-        <Link to="/"> GlobeCoin Manager </Link>
+        <Link to="/"> GlobeCoin Manager</Link>
       </Typography.Title>
       <Menu theme="dark">
         <Menu.Item icon={<HomeOutlined />}>
